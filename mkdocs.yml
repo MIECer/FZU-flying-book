@@ -2,11 +2,21 @@
 site_name: FZU飞跃手册 # 左上角标题
 site_url: https://HanlinCAI.github.io/fzu-flying-book/
 site_author: lancecai
-site_description: fzu-flying-book
+site_description: FZU-flying-book
 
 # [Navigtion]
-navz:
-  introduction
+nav:
+  - 海外申请:
+    - 写在最前面: flying/flying-index.md
+  
+  - 国内保研:
+    
+  - 考研考公:
+  
+  - 修读指南:
+
+  - 发起人:
+    - 关于我们: people/people.md
 
 # [UI]
 ## [top]
@@ -38,7 +48,7 @@ theme:
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
 ## [top-right corner]
 repo_url: https://github.com/HanlinCAI/fzu-flying-book # 右上角点击跳转的链接
-repo_name: fzu-flying-book # 右上角的名字
+repo_name: FZU-flying-book # 右上角的名字
 ## [bottom-left corner]
 copyright: © 2023 Hanlin Cai. Published with GitHub Pages # 左下角的版权声明
 ## [bottom-right corner]
