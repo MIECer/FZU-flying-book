@@ -1,6 +1,6 @@
 # [Info]
 site_name: FZU飞跃手册 # 左上角标题
-site_url: https://yang-xijie.github.io
+site_url: https://fzu-fly.online
 site_author: lancecai
 site_description: fzu-flying-book
 
@@ -20,7 +20,7 @@ theme:
         icon: material/weather-night # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
     - scheme: slate # 夜间模式
-      primary: deep purple
+      primary: indigo
       accent: orange
       toggle:
         icon: material/weather-sunny
