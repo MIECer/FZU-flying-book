@@ -1,0 +1,1 @@
+{"config":{"lang":["en","ja"],"separator":"[\\s\\-\uff0c\u3002]+","pipeline":["stemmer"]},"docs":[{"location":"","title":"Welcome to MkDocs","text":"<p>Welcome to FZU Flying Handbooks!</p>"}]}
