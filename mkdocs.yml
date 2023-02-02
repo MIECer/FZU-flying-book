@@ -6,7 +6,7 @@ site_description: fzu-flying-book
 
 # [Navigtion]
 navz:
-
+  intro:
 
 # [UI]
 ## [top]
@@ -14,13 +14,13 @@ theme:
   name: material
   palette:
     - scheme: default # 日间模式
-      primary: indigo # 上方的
+      primary: deep purple # 上方的
       accent: orange # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
     - scheme: slate # 夜间模式
-      primary: indigo
+      primary: deep purple
       accent: orange
       toggle:
         icon: material/weather-sunny
