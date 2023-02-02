@@ -6,7 +6,16 @@ site_description: fzu-flying-book
 
 # [Navigtion]
 navz:
-  introduction
+  - 海外申请:
+    - 写在最前面: flying/flying-index.md
+  
+  - 国内保研:
+  
+  - 考研考公:
+  
+  - 修读指南:
+
+  - 发起人:
 
 # [UI]
 ## [top]
