@@ -5,7 +5,7 @@ site_author: lancecai
 site_description: fzu-flying-book
 
 # [Navigtion]
-nav:
+navz:
 
 
 # [UI]
@@ -37,8 +37,8 @@ theme:
     repo: fontawesome/brands/github
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
 ## [top-right corner]
-repo_url: https://github.com/Yang-Xijie/yang-xijie.github.io # 右上角点击跳转的链接
-repo_name: yang-xijie.github.io # 右上角的名字
+repo_url: https://github.com/HanlinCAI/fzu-flying-book # 右上角点击跳转的链接
+repo_name: fzu-flying-book # 右上角的名字
 ## [bottom-left corner]
 copyright: 蔡汉霖 CC-BY-4.0 # 左下角的版权声明
 ## [bottom-right corner]
