@@ -18,7 +18,8 @@ nav:
     - flying/index.md
     - 英港新合集:
       - flying/uk-hk.md
-      - 案例: flying/hk/hk-2023fall-EECS-temp.md
+      - 案例:
+        - flying/hk/hk-2023fall-EECS-temp.md
     - 北美合集:
       - flying/na.md
 
@@ -36,7 +37,6 @@ nav:
 
   - 加入创作:
     - join/index.md
-
 
 
 
