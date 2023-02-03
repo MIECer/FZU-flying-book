@@ -1,7 +1,7 @@
 # [Info]
 site_name: FZU飞跃手册 # 左上角标题
 site_url: https://fzu-fly.online
-site_author: 蔡汉霖
+site_author: lancecai
 site_description: FZU-flying-book
 ## [top-right corner]
 repo_url: https://github.com/HanlinCAI/FZU-flying-book # 右上角点击跳转的链接
@@ -74,7 +74,7 @@ theme:
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
 
 ## [bottom-left corner]
-copyright: © 2023 Hanlin Cai. Published with GitHub Pages # 左下角的版权声明
+copyright: © 2023 FZU-MIECer Copyright # 左下角的版权声明
 ## [bottom-right corner]
 extra:
   social: # icons
@@ -82,19 +82,18 @@ extra:
       link: https://caihanlin.com/
       name: Website | HanlinCAI
     - icon: fontawesome/brands/github
-      link: https://github.com/GuangLun2000
-      name: GitHub | GuangLun2000
+      link: https://github.com/HanlinCAI/FZU-flying-book
+      name: GitHub | FZU-flying-book
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/lancecai2002
       name: Twitter | lancecai2002
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/594030035
-      name: Bilibili | 啊包即将入睡 # 鼠标悬浮提示
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/hanlin-cai-07b53b23b/
-      name: Linkedin | hanlin-cai # 鼠标悬浮提示
+    # - icon: fontawesome/brands/bilibili
+      # link: https://space.bilibili.com/594030035
+      # name: Bilibili | 啊包即将入睡 # 鼠标悬浮提示
+    # - icon: fontawesome/brands/linkedin
+      # link: https://www.linkedin.com/in/hanlin-cai-07b53b23b/
+      # name: Linkedin | hanlin-cai # 鼠标悬浮提示
     
-    # - disqus: 'fzu-fly-book'
 
 # [Extensions]
 plugins:
@@ -130,7 +129,7 @@ extra_css:
   - attach/css/unordered-list-symbols.css # multiplt unordered list symbols
 
 google_analytics: 
-  - 'UA-352325746'
+  - 'UA-35232574'
   - 'auto'
 
 # Lastly Update by Hanlin CAI in 2023/02/03.
