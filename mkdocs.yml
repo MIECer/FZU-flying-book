@@ -1,22 +1,46 @@
 # [Info]
 site_name: FZU飞跃手册 # 左上角标题
-site_url: https://HanlinCAI.github.io/fzu-flying-book/
-site_author: lancecai
+site_url: https://fzu-fly.online
+site_author: 蔡汉霖
 site_description: FZU-flying-book
+## [top-right corner]
+repo_url: https://github.com/HanlinCAI/FZU-flying-book # 右上角点击跳转的链接
+repo_name: FZU-flying-book # 右上角的名字
 
-# [Navigtion]
+# [Navigtion] 左侧文章导航
 nav:
-  - 海外申请:
-    - 写在最前面: flying/flying-index.md
-  
-  - 国内保研:
+  # - index.md
+  - 关于本站:
+    - about/index.md
+    - 关于作者: about/people.md
     
-  - 考研考公:
+  - 飞跃重洋:
+    - flying/index.md
+    - 英港新合集:
+      - flying/uk-hk.md
+      - 案例: flying/hk/hk-2023fall-EECS-temp.md
+    - 北美合集:
+      - flying/na.md
+
+    - 欧陆合集: 
+      - flying/eu.md
+  
+  
+  - 保研考研:
+    - sprint/index.md
+  
   
   - 修读指南:
+    - learning/index.md
+    - CS学习指南: learning/cs-diy.md
 
-  - 发起人:
-    - 关于我们: people/people.md
+  - 加入创作:
+    - join/index.md
+
+
+
+
+
 
 # [UI]
 ## [top]
@@ -25,13 +49,13 @@ theme:
   palette:
     - scheme: default # 日间模式
       primary: deep purple # 上方的
-      accent: orange # 链接等可交互元件的高亮色
+      accent: blue # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
     - scheme: slate # 夜间模式
       primary: indigo
-      accent: orange
+      accent: amber
       toggle:
         icon: material/weather-sunny
         name: 切换至日间模式
@@ -39,27 +63,38 @@ theme:
     - navigation.tabs # 使用Tab来进行分类
     - navigation.top # 返回顶部的按钮 在上滑时出现
     - navigation.indexes # Tab会有一个index.md 而不是在打开Tab时打开第一篇文章
-    - navigation.expand # 打开Tab时左侧目录全部展开
+    # - navigation.expand # 打开Tab时左侧目录全部展开
+    - navigation.path #
+    - navigation.top #
     - search.suggest # 搜索输入一些字母时推荐补全整个单词
     - search.highlight # 搜索出的文章关键词加入高亮
   language: zh # 一些提示性的文字会变成中文
-  icon:
+  icon: # 'clound' 右上角图标的另一种样式，需要注释下行
     repo: fontawesome/brands/github
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
-## [top-right corner]
-repo_url: https://github.com/HanlinCAI/fzu-flying-book # 右上角点击跳转的链接
-repo_name: FZU-flying-book # 右上角的名字
+
 ## [bottom-left corner]
 copyright: © 2023 Hanlin Cai. Published with GitHub Pages # 左下角的版权声明
 ## [bottom-right corner]
 extra:
   social: # icons
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/397801939
-      name: Bilibili | Lance的频道 # 鼠标悬浮提示
+    - icon: fontawesome/brands/docker
+      link: https://caihanlin.com/
+      name: Website | HanlinCAI
     - icon: fontawesome/brands/github
-      link: https://github.com/HanlinCAI
-      name: GitHub | HanlinCAI
+      link: https://github.com/GuangLun2000
+      name: GitHub | GuangLun2000
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/lancecai2002
+      name: Twitter | lancecai2002
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/594030035
+      name: Bilibili | 啊包即将入睡 # 鼠标悬浮提示
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/hanlin-cai-07b53b23b/
+      name: Linkedin | hanlin-cai # 鼠标悬浮提示
+    
+    # - disqus: 'fzu-fly-book'
 
 # [Extensions]
 plugins:
@@ -76,8 +111,8 @@ markdown_extensions:
   - toc:
       permalink: true # 固定标题位置为当前位置
   - pymdownx.highlight: # 代码块高亮
-      # linenums: true # 显示行号
-      # auto_title: true # 显示编程语言名称
+      linenums: true # 显示行号
+      auto_title: true # 显示编程语言名称
   - pymdownx.superfences # 代码块高亮插件
   - meta # 支持Markdown文件上方自定义标题标签等
   - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks
@@ -87,10 +122,15 @@ extra_javascript:
   # latex支持
   # check https://squidfunk.github.io/mkdocs-material/reference/mathjax/?h=math for more information
   # notice `curl https://polyfill.io/v3/polyfill.min.js?features=es6 > docs/mkdocs/javascripts/polyfill.min.js && curl https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js > docs/mkdocs/javascripts/tex-mml-chtml.js` not works... because there are other resources that need to load
-  - mkdocs/javascripts/mathjax.js
+  - attach/javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # https://cdn.bytedance.com/?query=mathjax&version=3.2.0
 extra_css:
-  - mkdocs/css/no-footer.css # 不使用底部的翻页
-  - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
-  
+  # - attach/css/no-footer.css # 不使用底部的翻页
+  - attach/css/unordered-list-symbols.css # multiplt unordered list symbols
+
+google_analytics: 
+  - 'UA-352325746'
+  - 'auto'
+
+# Lastly Update by Hanlin CAI in 2023/02/03.
