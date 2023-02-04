@@ -14,7 +14,7 @@ FZU飞跃手册欢迎**所有的毕业生**分享你们的故事，不限出路�
 
 支持实名/匿名投稿：lancecai2002@gmail.com
 
-[投稿格式请参考本文](https://sustech-application.com/#/%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB)
+[投稿格式可参考本文](https://sustech-application.com/#/%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB)
 
 
 
@@ -34,4 +34,4 @@ FZU飞跃手册欢迎**所有的毕业生**分享你们的故事，不限出路�
 
 ## 本站新闻
 
-- 2023年02月： FZU飞跃手册登陆，请参与建设！
+- 2023年02月： FZU飞跃手册登陆，一起参与建设！@FZUer
