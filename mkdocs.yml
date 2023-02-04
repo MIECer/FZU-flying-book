@@ -17,6 +17,11 @@ nav:
     
   - 飞跃重洋:
     - flying/index.md
+    - 准备工作:
+      - 信息科普:
+        - 欧陆留学科普帖: flying/prepare/common/eu-common-wzr.md
+
+
     - 英港新合集:
       - 英港新数据总览: flying/uk-hk.md
       - 英国案例:
@@ -39,7 +44,9 @@ nav:
       - 日韩数据总览: flying/jk.md
       - 申请案例:
         - 东京工业大学 控制 @23fall: flying/jk/2023/temp.md
-  
+
+
+
   - 国内升研:
     - sprint/index.md
     - 关于保研: sprint/baoyan/index.md

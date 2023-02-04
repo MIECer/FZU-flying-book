@@ -66,6 +66,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://fzu-fly.online/flying/prepare/prepare/</loc>
+         <lastmod>2023-02-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fzu-fly.online/flying/prepare/common/eu-common-wzr/</loc>
+         <lastmod>2023-02-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://fzu-fly.online/flying/uk/2023/temp/</loc>
          <lastmod>2023-02-04</lastmod>
          <changefreq>daily</changefreq>
