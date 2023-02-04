@@ -1,7 +1,7 @@
 # [Info]
 site_name: FZU飞跃手册 # 左上角标题
 site_url: https://fzu-fly.online
-site_author: 蔡汉霖
+site_author: lancecai
 site_description: FZU-flying-book
 ## [top-right corner]
 repo_url: https://github.com/HanlinCAI/FZU-flying-book # 右上角点击跳转的链接
@@ -12,29 +12,59 @@ nav:
   # - index.md
   - 关于本站:
     - about/index.md
-    - 关于作者: about/people.md
+    - 主编作者: about/people.md
+    - 我们的致谢: about/thanks.md
     
   - 飞跃重洋:
     - flying/index.md
     - 英港新合集:
-      - flying/uk-hk.md
-      - 案例:
-        - flying/hk/hk-2023fall-EECS-temp.md
+      - 英港新数据总览: flying/uk-hk.md
+      - 英国案例:
+        - Cambridge EECS @23fall: flying/hk/2023/temp.md
+      
+      - 港新案例:
+        - HKUST SE @23fall: flying/uk/2023/temp.md
+
     - 北美合集:
-      - flying/na.md
+      - 北美数据总览: flying/na.md
+      - 北美案例:
+        - MIT Robotics @23fall: flying/na/2023/temp.md      
 
     - 欧陆合集: 
-      - flying/eu.md
+      - 欧陆数据总览: flying/eu.md
+      - 申请案例:
+        - ETH 自动化 @23fall: flying/eu/2023/temp.md
+    
+    - 日韩合集:
+      - 日韩数据总览: flying/jk.md
+      - 申请案例:
+        - 东京工业大学 控制 @23fall: flying/jk/2023/temp.md
   
-  
-  - 保研考研:
+  - 国内升研:
     - sprint/index.md
-  
-  
-  - 修读指南:
-    - learning/index.md
-    - CS学习指南: learning/cs-diy.md
+    - 关于保研: sprint/baoyan/index.md
 
+    - 关于考研: sprint/kaoyan/index.md
+
+  
+  - 修读指北:
+    - learning/index.md
+    - MIEC专业课: learning/miec-gpa/index.md
+
+    - FZU公共课: learning/public/index.md
+
+    - 关于竞赛: learning/competition/index.md
+
+    - 关于科研: learning/lab/index.md
+
+  - 实习就业:
+    - work/index.md
+    - 大三实习学期:
+      - work/intern/intern.md
+    - 秋招包裹分享:
+      - work/package/index.md
+      - 2023秋招: 
+        - 星网锐捷12k 15薪: work/package/2023/temp.md
   - 加入创作:
     - join/index.md
 
@@ -63,7 +93,6 @@ theme:
     - navigation.tabs # 使用Tab来进行分类
     - navigation.top # 返回顶部的按钮 在上滑时出现
     - navigation.indexes # Tab会有一个index.md 而不是在打开Tab时打开第一篇文章
-    # - navigation.expand # 打开Tab时左侧目录全部展开
     - navigation.path #
     - navigation.top #
     - search.suggest # 搜索输入一些字母时推荐补全整个单词
@@ -74,7 +103,7 @@ theme:
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
 
 ## [bottom-left corner]
-copyright: © 2023 Hanlin Cai. Published with GitHub Pages # 左下角的版权声明
+copyright: © 2023 FZU-MIECer Copyright # 左下角的版权声明
 ## [bottom-right corner]
 extra:
   social: # icons
@@ -82,19 +111,18 @@ extra:
       link: https://caihanlin.com/
       name: Website | HanlinCAI
     - icon: fontawesome/brands/github
-      link: https://github.com/GuangLun2000
-      name: GitHub | GuangLun2000
+      link: https://github.com/HanlinCAI/FZU-flying-book
+      name: GitHub | FZU-flying-book
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/lancecai2002
       name: Twitter | lancecai2002
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/594030035
-      name: Bilibili | 啊包即将入睡 # 鼠标悬浮提示
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/hanlin-cai-07b53b23b/
-      name: Linkedin | hanlin-cai # 鼠标悬浮提示
+    # - icon: fontawesome/brands/bilibili
+      # link: https://space.bilibili.com/594030035
+      # name: Bilibili | 啊包即将入睡 # 鼠标悬浮提示
+    # - icon: fontawesome/brands/linkedin
+      # link: https://www.linkedin.com/in/hanlin-cai-07b53b23b/
+      # name: Linkedin | hanlin-cai # 鼠标悬浮提示
     
-    # - disqus: 'fzu-fly-book'
 
 # [Extensions]
 plugins:
@@ -130,7 +158,7 @@ extra_css:
   - attach/css/unordered-list-symbols.css # multiplt unordered list symbols
 
 google_analytics: 
-  - 'UA-352325746'
+  - 'UA-35232574'
   - 'auto'
 
 # Lastly Update by Hanlin CAI in 2023/02/03.
