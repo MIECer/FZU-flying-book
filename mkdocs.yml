@@ -18,6 +18,8 @@ nav:
   - 飞跃重洋:
     - flying/index.md
     - 准备工作:
+      - 信息搜索:
+        - 英国留学信息搜索: flying/prepare/common/uk-info.md
       - 信息科普:
         - 欧陆留学科普帖: flying/prepare/common/eu-common-wzr.md
 
