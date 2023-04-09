@@ -55,6 +55,15 @@ Post Code
 EH8 9YL
 </pre>>
 
-那么我们可以发邮件向相关部门咨询（而且根据规定，学校必须要在一段时间回复你，不然学校就违法了
+再例如：UCL FOI，我们可以查到UCL FOI Team 的相关信息
+
+
+<pre>
+For Data Protection queries: data-protection@ucl.ac.uk
+For Freedom of Information queries: foi@ucl.ac.uk
+Office address: provided upon enquiry
+</pre>>
+
+那么我们可以发邮件向相关部门咨询（而且根据规定，学校必须要在20个工作日内回复你，不然学校就违法了
 
 
