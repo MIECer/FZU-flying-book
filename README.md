@@ -4,21 +4,24 @@
 
 ## 提交方法：
 
-git clone git@github.com:MIECer/FZU-flying-book.git 到本地
+### git clone 到本地
+<pre>
+git clone git@github.com:MIECer/FZU-flying-book.git
+</pre>
 
-修改 ./docs 文件夹中的相关的.md 文件
+### 修改 ./docs 文件夹中的相关的.md 文件
 
-### 下面分为两个过程
-
-备份文件过程
+### 备份文件过程
 <pre>
 git add .
 git commit -m"comment" # comment = comment
 git push origin main
-<pre/>
+</pre>
 
-部署过程
+### 部署过程
 <pre>
 mkdocs gh-deploy --force
-<pre/>
+</pre>
+
+
 
