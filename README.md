@@ -11,7 +11,7 @@ git clone git@github.com:MIECer/FZU-flying-book.git
 
 ### 修改 ./docs 文件夹中的相关的.md 文件
 
-### 备份文件过程
+### 提交文件过程
 <pre>
 git add .
 git commit -m"comment" # comment = comment
