@@ -15,7 +15,7 @@ git clone git@github.com:MIECer/FZU-flying-book.git
 <pre>
 git add .
 git commit -m"comment" # comment = comment
-git push origin [a new branch]
+git push [a new branch]
 </pre>
 
 ### 部署过程
