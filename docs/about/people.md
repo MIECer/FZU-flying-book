@@ -1,16 +1,15 @@
 # 本站的运营者们
 
-## 2019级
-[饶孟宇](https://www.raomengyu.top)<br>
-王卓然<br>
+## 2023Fall
 
+负责人：饶孟宇、蔡汉霖
 
-## 2020级
-[蔡汉霖](https://caihanlin.com/)<br>
-李政<br>
-胡家齐<br>
+编委会成员：王卓然、李政、胡家齐、方宇辰
 
+[正在招募中，敬请关注！](https://fzu-fly.online/join/)
 
-## 2021级
+---
 
-<br>
+## 2024Fall
+
+敬请期待
