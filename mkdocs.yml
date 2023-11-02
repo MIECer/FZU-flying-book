@@ -33,38 +33,63 @@ nav:
         - 英国留学信息搜索: flying/prepare/common/uk-info.md
       - 信息科普:
         - 欧陆留学科普帖: flying/prepare/common/eu-common-wzr.md
+    - 英港新: 
+      - 英港新数据总览: flying/uk-hk.md
+      - 英国案例:
+        - Cambridge EECS @23fall: flying/hk/2023/temp.md
+      - 港新案例:
+        - HKUST SE @23fall: flying/uk/2023/temp.md
+    - 北美:
+      - 北美数据总览: flying/na.md
+      - 北美案例:
+        - MIT Robotics @23fall: flying/na/2023/temp.md
+    - 欧洲:
+      - 欧洲数据总览: flying/eu.md
+      - 申请案例:
+        - ETH 自动化 @23fall: flying/eu/2023/temp.md
+    - 亚洲:
+      - 亚洲数据总览: flying/jk.md
+      - 新加坡案例:
+        - 东京工业大学 控制 @23fall: flying/jk/2023/temp.md
+      - 日本案例:
+        - 东京工业大学 控制 @23fall: flying/jk/2023/temp.md
+      - 韩国案例:
+        - 东京工业大学 控制 @23fall: flying/jk/2023/temp.md
+      - 香港案例:
+        - 东京工业大学 控制 @23fall: flying/jk/2023/temp.md
+    
 
-# ——————————————————————————————————————————————————————
+# # ——————————————————————————————————————————————————————
 
-  - 英港新:
-    # - 
-    - 英港新数据总览: flying/uk-hk.md
-    - 英国案例:
-      - Cambridge EECS @23fall: flying/hk/2023/temp.md
-    - 港新案例:
-      - HKUST SE @23fall: flying/uk/2023/temp.md
+#   - 英港新:
+#     # - 
+#     - 英港新数据总览: flying/uk-hk.md
+#     - 英国案例:
+#       - Cambridge EECS @23fall: flying/hk/2023/temp.md
+#     - 港新案例:
+#       - HKUST SE @23fall: flying/uk/2023/temp.md
 
-# ——————————————————————————————————————————————————————
+# # ——————————————————————————————————————————————————————
 
-  - 北美:
-    # - 
-    - 北美数据总览: flying/na.md
-    - 北美案例:
-      - MIT Robotics @23fall: flying/na/2023/temp.md
+#   - 北美:
+#     # - 
+#     - 北美数据总览: flying/na.md
+#     - 北美案例:
+#       - MIT Robotics @23fall: flying/na/2023/temp.md
 
-# ——————————————————————————————————————————————————————
+# # ——————————————————————————————————————————————————————
 
-  - 欧陆:
-    - 欧陆数据总览: flying/eu.md
-    - 申请案例:
-      - ETH 自动化 @23fall: flying/eu/2023/temp.md
+#   - 欧洲:
+#     - 欧洲数据总览: flying/eu.md
+#     - 申请案例:
+#       - ETH 自动化 @23fall: flying/eu/2023/temp.md
 
-# ——————————————————————————————————————————————————————
+# # ——————————————————————————————————————————————————————
 
-  - 亚洲:
-    - 日韩数据总览: flying/jk.md
-    - 申请案例:
-      - 东京工业大学 控制 @23fall: flying/jk/2023/temp.md
+#   - 亚洲:
+#     - 日韩数据总览: flying/jk.md
+#     - 申请案例:
+#       - 东京工业大学 控制 @23fall: flying/jk/2023/temp.md
 
 
 # ——————————————————————————————————————————————————————
@@ -74,6 +99,18 @@ nav:
     - 关于保研: sprint/baoyan/index.md
 
     - 关于考研: sprint/kaoyan/index.md
+
+
+# ——————————————————————————————————————————————————————
+
+  - 实习就业:
+    - work/index.md
+    - 大三实习学期:
+      - work/intern/intern.md
+    - 秋招包裹分享:
+      - work/package/index.md
+      - 2023秋招: 
+        - 星网锐捷12k 15薪: work/package/2023/temp.md
 
 # ——————————————————————————————————————————————————————
 
@@ -87,17 +124,12 @@ nav:
 
     - 关于科研: learning/lab/index.md
 
-
 # ——————————————————————————————————————————————————————
 
-  - 实习就业:
-    - work/index.md
-    - 大三实习学期:
-      - work/intern/intern.md
-    - 秋招包裹分享:
-      - work/package/index.md
-      - 2023秋招: 
-        - 星网锐捷12k 15薪: work/package/2023/temp.md
+  - 自由评论:
+    - comment/index.md
+    - 评论区: comment/c.md
+    
 
 # ——————————————————————————————————————————————————————
 
@@ -135,6 +167,7 @@ theme:
   language: zh # 一些提示性的文字会变成中文
   icon: # 'clound' 右上角图标的另一种样式，需要注释下行
     repo: fontawesome/brands/github
+  custom_dir: overrides
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
 
 ## [bottom-left corner]
