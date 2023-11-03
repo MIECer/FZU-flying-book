@@ -33,30 +33,36 @@ nav:
         - 英国留学信息搜索: flying/prepare/common/uk-info.md
       - 信息科普:
         - 欧陆留学科普帖: flying/prepare/common/eu-common-wzr.md
-    - 英港新: 
-      - 英港新数据总览: flying/uk-hk.md
-      - 英国案例:
-        - Cambridge EECS @23fall: flying/hk/2023/temp.md
-      - 港新案例:
-        - HKUST SE @23fall: flying/uk/2023/temp.md
+    - 澳洲: 
+      - 澳洲数据总览: flying/ca.md
+      - 澳洲案例:
+        - college major @23fall: flying/ca/2023/temp.md
     - 北美:
       - 北美数据总览: flying/na.md
-      - 北美案例:
-        - MIT Robotics @23fall: flying/na/2023/temp.md
+      - 美国案例:
+        - college major @23fall: flying/na/2023/temp.md
+      - 加拿大案例:
+        - college major @23fall: flying/eu/2023/temp.md
     - 欧洲:
       - 欧洲数据总览: flying/eu.md
-      - 申请案例:
-        - ETH 自动化 @23fall: flying/eu/2023/temp.md
+      - 英国案例:
+        - college major @23fall: flying/eu/2023/temp.md
+      - 荷兰案例:
+        - college major @23fall: flying/eu/2023/temp.md
+      - 德国案例:
+        - college major @23fall: flying/eu/2023/temp.md
+      - 爱尔兰案例:
+        - college major @23fall: flying/eu/2023/temp.md
     - 亚洲:
-      - 亚洲数据总览: flying/jk.md
+      - 亚洲数据总览: flying/uk-hk.md
       - 新加坡案例:
-        - 东京工业大学 控制 @23fall: flying/jk/2023/temp.md
+        - temp major @23fall: flying/jk/2023/temp.md
       - 日本案例:
-        - 东京工业大学 控制 @23fall: flying/jk/2023/temp.md
+        - temp major @23fall: flying/jk/2023/temp.md
       - 韩国案例:
-        - 东京工业大学 控制 @23fall: flying/jk/2023/temp.md
+        - temp major @23fall: flying/jk/2023/temp.md
       - 香港案例:
-        - 东京工业大学 控制 @23fall: flying/jk/2023/temp.md
+        - temp major @23fall: flying/jk/2023/temp.md
     
 
 # # ——————————————————————————————————————————————————————
