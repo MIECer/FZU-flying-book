@@ -73,7 +73,7 @@
                         console.error("File upload failed");
                     }
                 };
-                xhr.send(dataToSend);
+                xhr.send(markdownContent);
             });
         });
     </script>
