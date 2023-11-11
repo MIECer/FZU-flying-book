@@ -59,20 +59,21 @@
                 // 创建一个 FormData 对象，用于上传文件
                 var formData = new FormData();
                 formData.append("markdownFile", blob, "document.md");
-
+                var dataToSend = "Hello, Server!";
                 // 发送 POST 请求将文件上传到后端
                 var xhr = new XMLHttpRequest();
-                xhr.open("POST", "api.anxiu.cloud/contribute", true);
+                xhr.open("POST", "http://localhost:8080/receiver//GetMdServlet", true);
+                xhr.setRequestHeader("Content-Type", "text/plain");
                 xhr.onload = function() {
                     if (xhr.status === 200) {
                         // 上传成功，可以在这里处理后端返回的响应
-                        console.log("File uploaded successfully!");
+                        console.log("Response received:", xhr.responseText);
                     } else {
                         // 上传失败
                         console.error("File upload failed");
                     }
                 };
-                xhr.send(formData);
+                xhr.send(dataToSend);
             });
         });
     </script>
