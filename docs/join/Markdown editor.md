@@ -53,7 +53,7 @@
                 // 获取 SimpleMDE 编辑器中的内容
                 var markdownContent = simplemde.value();
                 var xhr = new XMLHttpRequest();
-                xhr.open("POST", "http://localhost:8080/receiver/GetMdServlet", true);
+                xhr.open("POST", "http://hv3gfn.natappfree.cc/receiver/GetMdServlet", true);
                 xhr.setRequestHeader("Content-Type", "text/plain");
                 xhr.onload = function() {
                     if (xhr.status === 200) {
