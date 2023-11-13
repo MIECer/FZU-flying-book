@@ -52,17 +52,9 @@
             document.getElementById("saveButton").addEventListener("click", function() {
                 // 获取 SimpleMDE 编辑器中的内容
                 var markdownContent = simplemde.value();
-
-                // 创建一个新 Blob 对象，将 Markdown 内容保存为文件
-                var blob = new Blob([markdownContent], { type: "text/markdown" });
-
-                // 创建一个 FormData 对象，用于上传文件
-                var formData = new FormData();
-                formData.append("markdownFile", blob, "document.md");
-                // 发送 POST 请求将文件上传到后端
                 var xhr = new XMLHttpRequest();
-                xhr.open("POST", "http://localhost:8080/receiver/uploadServlet", true);
-                xhr.setRequestHeader("Content-Type", "multipart/form-data");
+                xhr.open("POST", "http://localhost:8080/receiver/GetMdServlet", true);
+                xhr.setRequestHeader("Content-Type", "text/plain");
                 xhr.onload = function() {
                     if (xhr.status === 200) {
                         // 上传成功，可以在这里处理后端返回的响应
@@ -72,7 +64,7 @@
                         console.error("File upload failed");
                     }
                 };
-                xhr.send(formData);
+                xhr.send(markdownContent);
             });
         });
     </script>
