@@ -45,6 +45,17 @@
         }
     </style>
 
+    <div class="button-container">
+        <!-- Your existing button -->
+        <button id="saveButton">Save</button>
+    </div>
+
+    <!-- Additional HTML for the alert -->
+    <div id="customAlert" class="custom-alert">
+        <p>操作成功！</p>
+        <button onclick="closeAlert()">关闭</button>
+    </div>
+
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             var simplemde = new SimpleMDE({ element: document.getElementById("MyID") });
@@ -57,9 +68,9 @@
                 xhr.setRequestHeader("Content-Type", "text/plain");
                 xhr.onload = function() {
                     if (xhr.status === 200) {
-                        // 上传成功，可以在这里处理后端返回的响应
+                        // 上传成功，显示提示框
                         console.log("Response received:", xhr.responseText);
-                        alert("操作成功！");
+                        showSuccessAlert();
                     } else {
                         // 上传失败
                         console.error("File upload failed");
@@ -67,6 +78,18 @@
                 };
                 xhr.send(markdownContent);
             });
+
+            // Function to show the success alert
+            function showSuccessAlert() {
+                var alertBox = document.getElementById("customAlert");
+                alertBox.style.display = "block";
+            }
+
+            // Function to close the alert
+            function closeAlert() {
+                var alertBox = document.getElementById("customAlert");
+                alertBox.style.display = "none";
+            }
         });
     </script>
 </head>
