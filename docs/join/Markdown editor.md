@@ -76,7 +76,8 @@
                         console.log("Response received:", xhr.responseText);
                         alert("操作成功！");
                         closeAlert();
-                        clearText();
+                        simplemde.value() = '';
+                        document.getElementById('MyTitle').value = '';
                     } else {
                         // 上传失败
                         console.error("File upload failed");
@@ -86,11 +87,6 @@
             });
         });
 
-        function clearText(){
-            var simplemde = new SimpleMDE({ element: document.getElementById("MyID")});
-            simplemde.value() =null;
-            document.getElementById('MyTitle').value =null;
-        }
 
         function showAlert() {
                 var alertBox = document.getElementById("customAlert");
