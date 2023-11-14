@@ -29,18 +29,7 @@
         }
 
         /* Add styles for the button */
-        #saveButton {
-            font-family: '华文宋体', 'STSong', 'SimSun', sans-serif; /* Change the font-family */
-            font-size: 16px; /* Adjust the font size */
-            background-color: #4CAF50; /* Green background color */
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        #closeButton {
+        .button {
             font-family: '华文宋体', 'STSong', 'SimSun', sans-serif; /* Change the font-family */
             font-size: 16px; /* Adjust the font size */
             background-color: #4CAF50; /* Green background color */
@@ -64,40 +53,38 @@
             z-index: 1;
         }
 
-        #saveButton:hover {
-            background-color: #45a049; /* Darker green on hover */
-        }
-
-        #closeButton:hover {
+        .button:hover {
             background-color: #45a049; /* Darker green on hover */
         }
     </style>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            var simplemde = new SimpleMDE({ element: document.getElementById("MyID") });
+            var simplemde = new SimpleMDE({ element: document.getElementById("MyID")});
 
             document.getElementById("saveButton").addEventListener("click", function() {
                 // 获取 SimpleMDE 编辑器中的内容
                 var markdownContent = simplemde.value();
+                var Title = document.getElementById('MyTitle').value;
                 var xhr = new XMLHttpRequest();
                 xhr.open("POST", "https://receiver.mynatapp.cc/receiver/GetMdServlet", true);
-                xhr.setRequestHeader("Content-Type", "text/plain");
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                var formData = 'markdownContent=' + encodeURIComponent(markdownContent) + '&Title=' + encodeURIComponent(Title);
                 xhr.onload = function() {
                     if (xhr.status === 200) {
                         // 上传成功，可以在这里处理后端返回的响应
                         console.log("Response received:", xhr.responseText);
-                        showSuccessAlert();
+                        
                     } else {
                         // 上传失败
                         console.error("File upload failed");
                     }
                 };
-                xhr.send(markdownContent);
+                xhr.send(formData);
             });
         });
 
-        function showSuccessAlert() {
+        function showAlert() {
                 var alertBox = document.getElementById("customAlert");
                 alertBox.style.display = "block";
         }
@@ -119,13 +106,13 @@
     </div>
     <!-- Move the button to the right -->
     <div class="button-container">
-        <button id="saveButton">保存并上传</button>
+        <button id="openButton" class="button" onclick="showAlert()">保存</button>
     </div>
 
     <!-- Additional HTML for the alert -->
     <div id="customAlert" class="custom-alert">
-        <p>操作成功！</p>
-        <button id="closeButton" onclick="closeAlert()">关闭</button>
+        <textarea id="MyTitle" rows="1" cols="50">输入标题</textarea>
+        <button id="saveButton" class="button">上传</button>
     </div>
 
 
