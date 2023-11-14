@@ -40,6 +40,19 @@
             cursor: pointer;
         }
 
+        .custom-alert {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #f1f1f1;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            z-index: 1;
+        }
+
         #saveButton:hover {
             background-color: #45a049; /* Darker green on hover */
         }
@@ -69,6 +82,7 @@
             });
         });
     </script>
+
 </head>
 <body>
     <!-- Add a title for the page -->
@@ -81,5 +95,13 @@
     <div class="button-container">
         <button id="saveButton">保存并上传</button>
     </div>
+
+    <!-- Additional HTML for the alert -->
+    <div id="customAlert" class="custom-alert">
+        <p>操作成功！</p>
+        <button onclick="closeAlert()">关闭</button>
+    </div>
+
+
 </body>
 </html>
