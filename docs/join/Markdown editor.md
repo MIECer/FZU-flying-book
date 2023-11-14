@@ -68,7 +68,7 @@
                 var Title = document.getElementById('MyTitle').value;
                 var xhr = new XMLHttpRequest();
                 xhr.open("POST", "https://receiver.mynatapp.cc/receiver/GetMdServlet", true);
-                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded';charset=UTF-8);
+                xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=UTF-8");
                 var formData = 'markdownContent=' + encodeURIComponent(markdownContent) + '&Title=' + encodeURIComponent(Title);
                 xhr.onload = function() {
                     if (xhr.status === 200) {
