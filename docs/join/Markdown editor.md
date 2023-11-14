@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flying-book</title>
-    
+
     <!-- 导入 SimpleMDE 的 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
 
@@ -57,41 +57,42 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            var simplemde = new SimpleMDE({ element: document.getElementById("MyID") });
+    // Function to show the success alert
+    function showSuccessAlert() {
+        var alertBox = document.getElementById("customAlert");
+        alertBox.style.display = "block";
+    }
 
-            document.getElementById("saveButton").addEventListener("click", function() {
-                // 获取 SimpleMDE 编辑器中的内容
-                var markdownContent = simplemde.value();
-                var xhr = new XMLHttpRequest();
-                xhr.open("POST", "https://receiver.mynatapp.cc/receiver/GetMdServlet", true);
-                xhr.setRequestHeader("Content-Type", "text/plain");
-                xhr.onload = function() {
-                    if (xhr.status === 200) {
-                        // 上传成功，显示提示框
-                        console.log("Response received:", xhr.responseText);
-                        showSuccessAlert();
-                    } else {
-                        // 上传失败
-                        console.error("File upload failed");
-                    }
-                };
+    // Function to close the alert
+    function closeAlert() {
+        var alertBox = document.getElementById("customAlert");
+        alertBox.style.display = "none";
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        var simplemde = new SimpleMDE({ element: document.getElementById("MyID") });
+
+        document.getElementById("saveButton").addEventListener("click", function() {
+            // 获取 SimpleMDE 编辑器中的内容
+            var markdownContent = simplemde.value();
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "https://receiver.mynatapp.cc/receiver/GetMdServlet", true);
+            xhr.setRequestHeader("Content-Type", "text/plain");
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    // 上传成功，显示提示框
+                    console.log("Response received:", xhr.responseText);
+                    showSuccessAlert();
+                } else {
+                    // 上传失败
+                    console.error("File upload failed");
+                }
+             };
                 xhr.send(markdownContent);
-            });
-
-            // Function to show the success alert
-            function showSuccessAlert() {
-                var alertBox = document.getElementById("customAlert");
-                alertBox.style.display = "block";
-            }
-
-            // Function to close the alert
-            function closeAlert() {
-                var alertBox = document.getElementById("customAlert");
-                alertBox.style.display = "none";
-            }
+             });
         });
     </script>
+
 </head>
 <body>
     <!-- Add a title for the page -->
@@ -104,5 +105,6 @@
     <div class="button-container">
         <button id="saveButton">保存并上传</button>
     </div>
+
 </body>
 </html>
