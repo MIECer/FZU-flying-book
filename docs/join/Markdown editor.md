@@ -68,8 +68,8 @@
                 var Title = document.getElementById('MyTitle').value;
                 var xhr = new XMLHttpRequest();
                 xhr.open("POST", "https://receiver.mynatapp.cc/receiver/GetMdServlet", true);
-                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-                var formData = 'markdownContent=' + markdownContent + '&Title=' + Title;
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded';charset=UTF-8);
+                var formData = 'markdownContent=' + encodeURIComponent(markdownContent) + '&Title=' + encodeURIComponent(Title);
                 xhr.onload = function() {
                     if (xhr.status === 200) {
                         // 上传成功，可以在这里处理后端返回的响应
@@ -88,8 +88,8 @@
 
         function clearText(){
             var simplemde = new SimpleMDE({ element: document.getElementById("MyID")});
-            simplemde.value() = "";
-            document.getElementById('MyTitle').value = "";
+            simplemde.value() ="";
+            document.getElementById('MyTitle').value ="";
         }
 
         function showAlert() {
