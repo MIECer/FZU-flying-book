@@ -74,7 +74,8 @@
                     if (xhr.status === 200) {
                         // 上传成功，可以在这里处理后端返回的响应
                         console.log("Response received:", xhr.responseText);
-                        
+                        alter("操作成功！");
+                        closeAlert();
                     } else {
                         // 上传失败
                         console.error("File upload failed");
@@ -111,7 +112,7 @@
 
     <!-- Additional HTML for the alert -->
     <div id="customAlert" class="custom-alert">
-        <textarea id="MyTitle" rows="1" cols="50">输入标题</textarea>
+        输入标题<textarea id="MyTitle" rows="1" cols="50"></textarea>
         <button id="saveButton" class="button">上传</button>
     </div>
 
