@@ -88,8 +88,8 @@
 
         function clearText(){
             var simplemde = new SimpleMDE({ element: document.getElementById("MyID")});
-            simplemde.value() ="&nbsp";
-            document.getElementById('MyTitle').value ="&nbsp";
+            simplemde.value() =null;
+            document.getElementById('MyTitle').value =null;
         }
 
         function showAlert() {
