@@ -38,18 +38,6 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-
-         .custom-alert {
-            display: none;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: #f1f1f1;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            z-index: 1;
         }
 
         #saveButton:hover {
@@ -57,54 +45,30 @@
         }
     </style>
 
-    <div class="button-container">
-        <!-- Your existing button -->
-        <button id="saveButton">Save</button>
-    </div>
-
-    <!-- Additional HTML for the alert -->
-    <div id="customAlert" class="custom-alert">
-        <p>操作成功！</p>
-        <button onclick="closeAlert()">关闭</button>
-    </div>
-
     <script>
-    // Function to show the success alert
-    function showSuccessAlert() {
-        var alertBox = document.getElementById("customAlert");
-        alertBox.style.display = "block";
-    }
+        document.addEventListener('DOMContentLoaded', () => {
+            var simplemde = new SimpleMDE({ element: document.getElementById("MyID") });
 
-    // Function to close the alert
-    function closeAlert() {
-        var alertBox = document.getElementById("customAlert");
-        alertBox.style.display = "none";
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-        var simplemde = new SimpleMDE({ element: document.getElementById("MyID") });
-
-        document.getElementById("saveButton").addEventListener("click", function() {
-            // 获取 SimpleMDE 编辑器中的内容
-            var markdownContent = simplemde.value();
-            var xhr = new XMLHttpRequest();
-            xhr.open("POST", "https://receiver.mynatapp.cc/receiver/GetMdServlet", true);
-            xhr.setRequestHeader("Content-Type", "text/plain");
-            xhr.onload = function() {
-                if (xhr.status === 200) {
-                    // 上传成功，显示提示框
-                    console.log("Response received:", xhr.responseText);
-                    showSuccessAlert();
-                } else {
-                    // 上传失败
-                    console.error("File upload failed");
-                }
-             };
+            document.getElementById("saveButton").addEventListener("click", function() {
+                // 获取 SimpleMDE 编辑器中的内容
+                var markdownContent = simplemde.value();
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST", "https://receiver.mynatapp.cc/receiver/GetMdServlet", true);
+                xhr.setRequestHeader("Content-Type", "text/plain");
+                xhr.onload = function() {
+                    if (xhr.status === 200) {
+                        // 上传成功，可以在这里处理后端返回的响应
+                        console.log("Response received:", xhr.responseText);
+                        alert("操作成功！");
+                    } else {
+                        // 上传失败
+                        console.error("File upload failed");
+                    }
+                };
                 xhr.send(markdownContent);
-             });
+            });
         });
     </script>
-
 </head>
 <body>
     <!-- Add a title for the page -->
@@ -117,6 +81,5 @@
     <div class="button-container">
         <button id="saveButton">保存并上传</button>
     </div>
-
 </body>
 </html>
