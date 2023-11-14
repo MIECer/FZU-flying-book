@@ -38,6 +38,18 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+
+         .custom-alert {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #f1f1f1;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            z-index: 1;
         }
 
         #saveButton:hover {
