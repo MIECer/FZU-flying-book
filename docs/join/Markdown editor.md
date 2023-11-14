@@ -40,6 +40,17 @@
             cursor: pointer;
         }
 
+        #closeButton {
+            font-family: '华文宋体', 'STSong', 'SimSun', sans-serif; /* Change the font-family */
+            font-size: 16px; /* Adjust the font size */
+            background-color: #4CAF50; /* Green background color */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
         .custom-alert {
             display: none;
             position: fixed;
@@ -54,6 +65,10 @@
         }
 
         #saveButton:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+
+        #closeButton:hover {
             background-color: #45a049; /* Darker green on hover */
         }
     </style>
@@ -110,7 +125,7 @@
     <!-- Additional HTML for the alert -->
     <div id="customAlert" class="custom-alert">
         <p>操作成功！</p>
-        <button onclick="closeAlert()">关闭</button>
+        <button id="closeButton" onclick="closeAlert()">关闭</button>
     </div>
 
 
