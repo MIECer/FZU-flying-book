@@ -69,13 +69,14 @@
                 var xhr = new XMLHttpRequest();
                 xhr.open("POST", "https://receiver.mynatapp.cc/receiver/GetMdServlet", true);
                 xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-                var formData = 'markdownContent=' + encodeURIComponent(markdownContent) + '&Title=' + encodeURIComponent(Title);
+                var formData = 'markdownContent=' + markdownContent + '&Title=' + Title;
                 xhr.onload = function() {
                     if (xhr.status === 200) {
                         // 上传成功，可以在这里处理后端返回的响应
                         console.log("Response received:", xhr.responseText);
                         alert("操作成功！");
                         closeAlert();
+                        clearText();
                     } else {
                         // 上传失败
                         console.error("File upload failed");
@@ -84,6 +85,12 @@
                 xhr.send(formData);
             });
         });
+
+        function clearText(){
+            var simplemde = new SimpleMDE({ element: document.getElementById("MyID")});
+            simplemde.value() = "";
+            document.getElementById('MyTitle').value = "";
+        }
 
         function showAlert() {
                 var alertBox = document.getElementById("customAlert");
