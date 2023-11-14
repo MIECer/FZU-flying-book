@@ -76,7 +76,7 @@
                         console.log("Response received:", xhr.responseText);
                         alert("操作成功！");
                         closeAlert();
-                        simplemde.value() = '';
+                        simplemde.value('');
                         document.getElementById('MyTitle').value = '';
                     } else {
                         // 上传失败
