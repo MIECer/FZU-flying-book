@@ -74,7 +74,7 @@
                     if (xhr.status === 200) {
                         // 上传成功，可以在这里处理后端返回的响应
                         console.log("Response received:", xhr.responseText);
-                        alter("操作成功！");
+                        alert("操作成功！");
                         closeAlert();
                     } else {
                         // 上传失败
