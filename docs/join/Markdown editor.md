@@ -72,7 +72,7 @@
                     if (xhr.status === 200) {
                         // 上传成功，可以在这里处理后端返回的响应
                         console.log("Response received:", xhr.responseText);
-                        alert("操作成功！");
+                        showSuccessAlert();
                     } else {
                         // 上传失败
                         console.error("File upload failed");
@@ -81,6 +81,17 @@
                 xhr.send(markdownContent);
             });
         });
+
+        function showSuccessAlert() {
+                var alertBox = document.getElementById("customAlert");
+                alertBox.style.display = "block";
+        }
+
+            // Function to close the alert
+        function closeAlert() {
+                var alertBox = document.getElementById("customAlert");
+                alertBox.style.display = "none";
+        }
     </script>
 
 </head>
