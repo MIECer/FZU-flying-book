@@ -82,13 +82,16 @@
             var simplemde = new SimpleMDE({ element: document.getElementById("MyID")});
 
             document.getElementById("saveButton").addEventListener("click", function() {
+                var selectElement = document.getElementById("areaSelect");
+                // 获取所选内容
+                var distinct = selectElement.value;
                 // 获取 SimpleMDE 编辑器中的内容
                 var markdownContent = simplemde.value();
                 var Title = document.getElementById('MyTitle').value;
                 var xhr = new XMLHttpRequest();
                 xhr.open("POST", "https://receiver.mynatapp.cc/receiver/GetMdServlet", true);
                 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=UTF-8");
-                var formData = 'markdownContent=' + encodeURIComponent(markdownContent) + '&Title=' + encodeURIComponent(Title);
+                var formData = 'markdownContent=' + encodeURIComponent(markdownContent) + '&Title=' + encodeURIComponent(Title) + '&distinct='+encodeURIComponent(distinct);
                 xhr.onload = function() {
                     if (xhr.status === 200) {
                         // 上传成功，可以在这里处理后端返回的响应
