@@ -99,6 +99,7 @@
                         closeAlert();
                         simplemde.value('');
                         document.getElementById('MyTitle').value = '';
+                        selectElement.selectedIndex = 0;
                     } else {
                         // 上传失败
                         console.error("File upload failed");
