@@ -56,6 +56,25 @@
         .button:hover {
             background-color: #45a049; /* Darker green on hover */
         }
+
+        select {
+        padding: 8px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        outline: none;
+        transition: border-color 0.3s;
+        width: 200px; /* 调整宽度 */
+        }
+
+        select:hover {
+        border-color: #666;
+        }
+
+        select:focus {
+        border-color: #333;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
     </style>
 
     <script>
@@ -110,6 +129,13 @@
     </div>
     <!-- Move the button to the right -->
     <div class="button-container">
+        <select name="Area">
+            <option value="请选择地区" selected="selected">请选择地区</option>
+            <option value="亚洲">亚洲</option> 
+            <option value="北美">北美</option> 
+            <option value="欧洲">欧洲</option>
+            <option value="澳洲">澳洲</option>
+        </select>
         <button id="openButton" class="button" onclick="showAlert()">保存</button>
     </div>
 
@@ -117,6 +143,7 @@
     <div id="customAlert" class="custom-alert">
         输入标题<textarea id="MyTitle" rows="1" cols="50"></textarea>
         <button id="saveButton" class="button">上传</button>
+        <input type="button" name="close" value="X" onclick="closeAlert()" />
     </div>
 
 
