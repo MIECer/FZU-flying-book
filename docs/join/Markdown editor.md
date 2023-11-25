@@ -80,7 +80,6 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             var simplemde = new SimpleMDE({ element: document.getElementById("MyID")});
-
             document.getElementById("saveButton").addEventListener("click", function() {
                 var selectElement = document.getElementById("areaSelect");
                 // 获取所选内容
@@ -132,7 +131,7 @@
     </div>
     <!-- Move the button to the right -->
     <div class="button-container">
-        <select name="Area">
+        <select name="Area" id="areaSelect">
             <option value="请选择地区" selected="selected">请选择地区</option>
             <option value="亚洲">亚洲</option> 
             <option value="北美">北美</option> 
