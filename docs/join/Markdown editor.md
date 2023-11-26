@@ -125,7 +125,11 @@
 </head>
 <body>
     <!-- Add a title for the page -->
-    <h1>FZU飞跃手册 Markdown编辑器</h1>
+    <h1>加入创作  FZU飞跃手册</h1>
+
+    选择您的案例地区，使用markdown语句进行编辑，参照飞跃重洋中的案例格式，一起加入创作吧
+
+    
 
     <div>
         <textarea id="MyID" rows="10" cols="50"></textarea>

@@ -18,11 +18,12 @@ nav:
     - 主编作者: about/people.md
 
 
+
 # ——————————————————————————————————————————————————————
 
   - 加入创作:
     - join/index.md
-    - Markdown编辑器: join/Markdown editor.md
+    - Join us: join/Markdown editor.md
 
 # ——————————————————————————————————————————————————————
 
@@ -33,10 +34,13 @@ nav:
         - 英国留学信息搜索: flying/prepare/common/uk-info.md
       - 信息科普:
         - 欧陆留学科普帖: flying/prepare/common/eu-common-wzr.md
-    - 澳洲: 
-      - 澳洲数据总览: flying/ca.md
-      - 澳洲案例:
+    - 大洋洲: 
+      - 大洋洲数据总览: flying/ca.md
+      - 澳大利亚案例:
         - college major @23fall: flying/ca/2023/temp.md
+      - 新西兰案例:
+        - college major @23fall: flying/ca/2023/temp.md
+
     - 北美:
       - 北美数据总览: flying/na.md
       - 美国案例:
@@ -141,6 +145,7 @@ nav:
 
   - 特别致谢©:
     - advertising/index.md
+
 
 
 # ======================================================

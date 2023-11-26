@@ -1,4 +1,4 @@
-# 澳洲合集
+# 大洋洲合集
 
 | RANK | 学校                                            |
 |------|-------------------------------------------------|
@@ -13,4 +13,4 @@
 | 89   | The University of Adelaide                      |
 | 90   | University of Technology Sydney                 |
 
-申请澳洲院校
+申请大洋洲院校
