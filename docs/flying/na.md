@@ -34,4 +34,4 @@
 | 97 | Georgia Institute of Technology                |
 | 99 | Purdue University                              |
 
-申请北美院校
+申请北美洲院校
