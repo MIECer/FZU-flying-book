@@ -1,3 +1,3 @@
-# 修读指北
+# 修读指南
 
 Under construction.
