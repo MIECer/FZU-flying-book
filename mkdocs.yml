@@ -41,7 +41,7 @@ nav:
       - 新西兰案例:
         - college major @23fall: flying/ca/2023/temp.md
 
-    - 北美:
+    - 北美洲:
       - 北美数据总览: flying/na.md
       - 美国案例:
         - college major @23fall: flying/na/2023/temp.md
@@ -81,7 +81,7 @@ nav:
 
 # # ——————————————————————————————————————————————————————
 
-#   - 北美:
+#   - 北美洲:
 #     # - 
 #     - 北美数据总览: flying/na.md
 #     - 北美案例:
@@ -124,7 +124,7 @@ nav:
 
 # ——————————————————————————————————————————————————————
 
-  - 修读指北:
+  - 修读指南:
     - learning/index.md
     - MIEC专业课: learning/miec-gpa/index.md
 

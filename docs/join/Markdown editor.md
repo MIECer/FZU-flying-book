@@ -139,7 +139,7 @@
         <select name="Area" id="areaSelect">
             <option value="请选择地区" selected="selected">请选择地区</option>
             <option value="亚洲">亚洲</option> 
-            <option value="北美">北美</option> 
+            <option value="北美洲">北美洲</option> 
             <option value="欧洲">欧洲</option>
             <option value="澳洲">澳洲</option>
         </select>
