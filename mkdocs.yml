@@ -37,7 +37,7 @@ nav:
     - 大洋洲: 
       - 大洋洲数据总览: flying/ca.md
       - 澳大利亚案例:
-        - college major @23fall: flying/ca/2023/temp.md
+        - 李亚兴学长: flying/ca/2023/李亚兴学长.md
       - 新西兰案例:
         - college major @23fall: flying/ca/2023/temp.md
 
@@ -50,7 +50,7 @@ nav:
     - 欧洲:
       - 欧洲数据总览: flying/eu.md
       - 英国案例:
-        - college major @23fall: flying/eu/2023/temp.md
+        - 韩小龙学长: flying/eu/2023/韩小龙学长.md
       - 荷兰案例:
         - college major @23fall: flying/eu/2023/temp.md
       - 德国案例:
@@ -66,7 +66,7 @@ nav:
       - 韩国案例:
         - temp major @23fall: flying/jk/2023/temp.md
       - 香港案例:
-        - temp major @23fall: flying/jk/2023/temp.md
+        - 陈硕元学长留学分享会: flying/jk/2023/陈硕元学长.md
     
 
 # # ——————————————————————————————————————————————————————
@@ -105,10 +105,12 @@ nav:
 # ——————————————————————————————————————————————————————
 
   - 国内升研:
-    - sprint/index.md
     - 关于保研: sprint/baoyan/index.md
-
+    - 保研案例:
+    - 案例1: sprint/baoyan/2023/案例1.md
     - 关于考研: sprint/kaoyan/index.md
+    - 考研案例:
+    - 案例1:sprint/kaoyan/2023/案例1.md
 
 
 # ——————————————————————————————————————————————————————
