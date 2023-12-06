@@ -44,15 +44,16 @@ nav:
     - 北美洲:
       - 北美洲数据总览: flying/na.md
       - 美国案例:
-        - college major @23fall: flying/na/2023/temp.md
+        - 案例1: flying/na/2023/案例1.md
       - 加拿大案例:
         - college major @23fall: flying/eu/2023/temp.md
     - 欧洲:
       - 欧洲数据总览: flying/eu.md
       - 英国案例:
         - 案例1: flying/eu/2023/案例1.md
+        - 案例2: flying/eu/2023/案例3.md
       - 荷兰案例:
-        - college major @23fall: flying/eu/2023/temp.md
+        - 案例1 : flying/eu/2023/案例2.md
       - 德国案例:
         - college major @23fall: flying/eu/2023/temp.md
       - 爱尔兰案例:
@@ -67,6 +68,8 @@ nav:
         - temp major @23fall: flying/jk/2023/temp.md
       - 香港案例:
         - 案例1: flying/jk/2023/案例1.md
+        - 案例2: flying/jk/2023/案例2.md
+        - 案例3: flying/jk/2023/案例3.md
     
 
 # # ——————————————————————————————————————————————————————
