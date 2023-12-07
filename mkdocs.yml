@@ -37,23 +37,23 @@ nav:
     - 大洋洲: 
       - 大洋洲数据总览: flying/ca.md
       - 澳大利亚案例:
-        - 案例1: flying/ca/2023/案例1.md
+        - 新南威尔士大学-人工智能@23fall: flying/ca/2023/案例1.md
       - 新西兰案例:
         - college major @23fall: flying/ca/2023/temp.md
 
     - 北美洲:
       - 北美洲数据总览: flying/na.md
       - 美国案例:
-        - 案例1: flying/na/2023/案例1.md
+        - DKU (ECE), Rochester (CE), USC (CE), UCI (CE), UOM (robotics), UOM (EE control)@23fall: flying/na/2023/案例1.md
       - 加拿大案例:
         - college major @23fall: flying/eu/2023/temp.md
     - 欧洲:
       - 欧洲数据总览: flying/eu.md
       - 英国案例:
-        - 案例1: flying/eu/2023/案例1.md
-        - 案例2: flying/eu/2023/案例3.md
+        - 帝国理工-Human and Biological Robotics@23fall: flying/eu/2023/案例1.md
+        - 帝国理工: flying/eu/2023/案例3.md
       - 荷兰案例:
-        - 案例1 : flying/eu/2023/案例2.md
+        - 代尔夫特理工大学-计算机工程CE硕士@23fall: flying/eu/2023/案例2.md
       - 德国案例:
         - college major @23fall: flying/eu/2023/temp.md
       - 爱尔兰案例:
@@ -67,9 +67,9 @@ nav:
       - 韩国案例:
         - temp major @23fall: flying/jk/2023/temp.md
       - 香港案例:
-        - 案例1: flying/jk/2023/案例1.md
-        - 案例2: flying/jk/2023/案例2.md
-        - 案例3: flying/jk/2023/案例3.md
+        - 香港大学，香港中文大学@23fall: flying/jk/2023/案例1.md
+        - 新二 G5 欧陆@23fall: flying/jk/2023/案例2.md
+        - 香港城市大学-Master Engineering management@23fall: flying/jk/2023/案例3.md
     
 
 # # ——————————————————————————————————————————————————————
@@ -110,9 +110,9 @@ nav:
   - 国内升研:
     - 关于保研: sprint/baoyan/index.md
     - 保研案例:
-      - 保研案例1: sprint/baoyan/2023/保研案例1.md
+      - 湖南大学-计算机: sprint/baoyan/2023/保研案例1.md
       - 保研案例2: sprint/baoyan/2023/保研案例2.md
-      - 保研案例3: sprint/baoyan/2023/保研案例3.md
+      - 湖南大学-艺术: sprint/baoyan/2023/保研案例3.md
     - 关于考研: sprint/kaoyan/index.md
     - 考研案例:
       - 考研案例1: sprint/kaoyan/2023/考研案例1.md
