@@ -2682,18 +2682,7 @@
         <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 
-        # build.sh
-  sed -i 's/{\% if page.edit_url \%}/<div style="float:right"><span id="busuanzi_container_page_pv"><font size="2" color="grey">本文总阅读量<span id="busuanzi_value_page_pv"><\/span>次<\/font><\/span><\/div>{\% if page.edit_url \%}/g' mkdocs-material/material/base.html
-
-  mkdocs build
-
-  # mkdocs.yaml
-extra_javascript:
-    - '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'
-
-    # build.sh
-sed -i 's/<\/article>/<hr><span id="busuanzi_container_page_pv"><font size="3" color="grey">本文总阅读量<span id="busuanzi_value_page_pv"><\/span>次<\/font><\/span><br\/><\/article>/E:\fzu-fly.online\FZU-flying-book\site\index.html
-mkdocs build
+   
 
 
       
