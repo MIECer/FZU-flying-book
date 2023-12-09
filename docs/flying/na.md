@@ -37,5 +37,5 @@
 申请北美洲院校
 
 ##美国
-
+[南加州大学 杨彦博](https://fzu-fly.online/flying/na/2023/%E6%A1%88%E4%BE%8B1/)
 ##加拿大
