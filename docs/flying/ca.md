@@ -16,7 +16,7 @@
 申请大洋洲院校
 
 ##澳大利亚
-[新南威尔士大学 李亚兴学长](https://fzu-fly.online/flying/ca/2023/%E6%A1%88%E4%BE%8B1/) 
+[新南威尔士大学@2023fall 李亚兴](https://fzu-fly.online/flying/ca/2023/%E6%A1%88%E4%BE%8B1/) 
 
 ##新西兰
 
