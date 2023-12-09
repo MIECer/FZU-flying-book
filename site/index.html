@@ -2680,6 +2680,19 @@
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
         <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+        <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+
+        # mkdocs.yaml
+        extra_javascript:
+         - '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'
+
+         # build.sh
+          sed -i 's/<\/article>/<hr><span id="busuanzi_container_page_pv"><font size="3" color="grey">本文总阅读量<span id="busuanzi_value_page_pv"><\/span>次<\/font><\/span><br\/><\/article>/g' mkdocs-material/material/base.html
+           mkdocs build
+
       
     
   </body>
