@@ -15,6 +15,9 @@ MIEC要培养怎样的年轻人？或者说，我们将通过在MIEC四年的经
 
 **“新的一版，由我来执笔！”**
 
+本站访问量：<script async src="//finicounter.eu.org/finicounter.js"></script>
+<span id="finicount_views"></span>
+
 <br>
 
 <p align="right">FZU飞跃手册编委会</p>
