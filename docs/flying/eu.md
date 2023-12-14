@@ -47,6 +47,8 @@
 
 [帝国理工 environmental data science and machine learning @2023fall 张根华](https://fzu-fly.online/flying/eu/2023/%E6%A1%88%E4%BE%8B4/)
 
+[帝国理工大学 应用科学计算与工程](https://fzu-fly.online/flying/eu/2023/%E6%A1%88%E4%BE%8B5/)
+
 ##荷兰
 [代尔夫特理工大学 计算机工程CE硕士@2023fall 王卓然](https://fzu-fly.online/flying/eu/2023/%E6%A1%88%E4%BE%8B2/)
 ##德国
