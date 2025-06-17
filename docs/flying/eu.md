@@ -43,7 +43,6 @@
 ##英国
 [帝国理工-Human and Biological Robotics@23fall 韩小龙](https://fzu-fly.online/flying/eu/2023/%E6%A1%88%E4%BE%8B1/)
 
-[帝国理工 major @2023fall 饶孟宇](https://fzu-fly.online/flying/eu/2023/%E6%A1%88%E4%BE%8B3/)
 
 [帝国理工 environmental data science and machine learning @2023fall 张根华](https://fzu-fly.online/flying/eu/2023/%E6%A1%88%E4%BE%8B4/)
 
